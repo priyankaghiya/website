@@ -1,0 +1,40 @@
+html{
+    background: url(../images/home-banner.jpg) no-repeat center fixed; 
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+     background-blend-mode: lighten;
+    z-index: -1;
+    }
+
+    @media screen and (max-width:1060px)
+{
+  table{
+    width:100%;
+  }
+  .head{
+    width:100%;
+  }
+ }
+
+table {
+    border:crimson 10px solid;
+    border-collapse: separate;
+    width: 70%;
+    text-align: center;
+  }
+  
+  th,td{
+    text-align: center;
+    padding: 22px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    font-weight: 50px;
+    
+  }
+  
+  tr:nth-child(even) {background-color: green;
+}
+
+  tr:nth-child(odd){background-color:lightgreen;
+color:orangered;}
+  

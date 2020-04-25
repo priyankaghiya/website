@@ -1,0 +1,131 @@
+
+  html{
+    background: url(../images/home-banner.jpg) no-repeat center fixed; 
+      background-size: cover;
+      background-color: rgba(0,0,0,0.3);
+         background-blend-mode: lighten;
+    }
+
+    .head{
+        background-color: violet;
+        }
+        
+    h1{
+        font-family:verdana;
+         font-size:3vw;
+          text-align: center;
+          font-family: 'Ma Shan Zheng', cursive;
+    }
+
+    h4{
+        text-align: center;
+        font-family: 'Ma Shan Zheng', cursive;
+    }
+
+    div.hover, html{
+        opacity: 0.8;
+    }
+
+    pre{
+        background-image: url(../images/white.jpg);
+        background-size: cover;
+        /*background-color:lightslategray;*/
+        font-size:2vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding:15px 5px 15px 5px;
+}
+    
+   @media screen and(max-width:1060px)
+    {
+        pre{
+            width:100%;
+        }
+        html{
+            width:100%;
+        }
+        .button{
+            float:center;
+
+        }
+        table{
+            width:100%;
+        }
+    }
+
+
+
+    .AAA{
+        align-self:center;
+        margin-left: 5%;
+        width:85%;
+    
+    }
+
+    .abcc{
+        align-self: center;
+        padding:1px 1px 1px 1px;
+        background-color:lightcyan;
+        margin:1px 1px 1px 1px;
+        border:groove 10px blue; ;
+        width:90%;
+        font-size: 24px;
+        border-collapse: separate;
+
+    }
+    
+    .abc{
+        align-self: center;
+        float: right;
+        padding:1px 1px 1px 1px;
+        font-weight: bold;
+        background-color:lightcyan;
+        margin:1px 1px 1px 1px;
+        border:groove 10px pink ;
+        width:20%;
+    }
+    
+    .button {
+        padding: 15px 25px;
+        font-size: 2vw;
+        text-align: center;
+      
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #333;
+          margin-top: 5%;
+          
+        }
+
+        .cc{
+            margin-left: 500px;
+        }
+        .ab{
+            float:right;
+        }
+
+               .b1{
+            margin-top: 5%;
+          
+            width:20vw;
+        }
+
+        .pqr{
+            float:left;
+           
+        }
+        a{
+            text-decoration: none;
+            
+        }
+
+        .button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

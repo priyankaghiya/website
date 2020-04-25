@@ -1,0 +1,40 @@
+
+  html{
+    background: url(../images/home-banner.jpg) no-repeat center fixed; 
+      background-size: cover;
+      background-color: rgba(0,0,0,0.3);
+         background-blend-mode: lighten;
+    }
+.abc{
+    background-color:darkblue;
+    color:violet;
+    font-weight: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+    font-size: 2.5vw;
+    
+}
+.abc.hover,html{
+    opacity: 0.8;
+}
+input{
+    width:300px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5vw;
+}
+.aa{
+    font-weight: 50%;
+    font-size:2.5vw;
+    color:crimson;
+    background-color: yellow;
+}
+
+.aa:hover {background-color:darkgreen;}
+
+.aa:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

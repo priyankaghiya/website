@@ -1,0 +1,89 @@
+html{
+    background: url(../images/home-banner.jpg) no-repeat center fixed; 
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+     background-blend-mode: lighten;
+    z-index: -1;
+    }
+
+   
+.head{
+	background-color: violet;
+    }
+    
+h1{
+    
+     font-size:300%;
+      text-align: center;
+      font-family: 'Ma Shan Zheng', cursive;
+}
+
+@media screen and (max-width:1060px)
+{
+  .images{
+    width:100%;
+  }
+}
+
+.button {
+    padding: 25px  25px 25px ;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #333;
+    margin-left: 30%;
+    }
+
+    .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.b1{
+	margin-top: 15px;
+	margin-left:15%;
+	width:20vw;
+}
+
+.b2{
+    margin-top: 15px;
+	margin-left:15%;
+    width:25vw;
+}
+
+.images{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 5px;
+    width: 100px;
+    text-align:right;
+    
+  }
+  
+
+  
+  .qq{
+    width: 30vw;
+    height: auto;
+    
+  }
+
+  .ww{
+    width: 30vw;
+    
+  }
+
+  .ee{
+    width: 25vw;
+
+  }
+  
+  

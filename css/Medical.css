@@ -1,0 +1,65 @@
+html{
+    background: url(../images/home-banner.jpg) no-repeat center fixed; 
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+     background-blend-mode: lighten;
+    z-index: -1;
+    }
+.tab{
+  width:20%;
+  font-size: 1vw;
+}
+  
+.head{
+	background-color: violet;
+    }
+    
+h1{
+    
+     font-size:3vw;
+      text-align: center;
+      font-family: 'Ma Shan Zheng', cursive;
+}
+@media screen and (max-width:1060px)
+{
+  table{
+    width:100%;
+  }
+  .head{
+    width:100%;
+  }
+ }
+
+table {
+    border:crimson 10px solid;
+    border-collapse: separate;
+    width: 90%;
+    text-align: center;
+  }
+  
+  th,td{
+    text-align: center;
+    padding: 22px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2vw;
+
+  }
+  
+  tr:nth-child(even) {background-color: green}
+
+  tr:nth-child(odd){background-color:lightgreen;}
+  
+  
+a.active{
+  background-color: crimson;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+a.hover{
+  background-color: blueviolet;
+  text-decoration: none;
+  
+}
